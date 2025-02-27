@@ -16,13 +16,55 @@
             #ultrahud{
                 height:25%
             }
+            .subDivider{
+                border: dashed;
+                color:white
+            }
         </style>
     </head>
     <body>
         <img src="piercerlogocropped.png" id="logo">
-        <p>Welcome to my site! <br> This will act as my portfolio.</p>
+
+        <h2 id="quote" onclick="getRandomQuote()">Click me for a quote!</h2>
+
+        <p>Welcome to my site! <br> This is a space for me to mash my keyboard in.</p>
         <hr>
-        <img src="ultrahudlogo.png" id="ultrahud">
-        <h1>ULTRAHUD</h1>
+        <h1>Who am I?</h1>
+        <p>A guy that likes vido gaems. Some of my favorite at the moment are Deadlock and especially ULTRAKILL. 
+            I'm also the guy who made ULTRAHUD, although I don't work on it in any significant capacity anymore.</p>
+            <hr>
+        <h1>Music</h1>
+        <p>A lot of my music taste has been influenced by Hakita and his work on ULTRAKILL. 
+            Here's some of the artists I have grown to enjoy because of that.</p>
+            <hr class="subDivider">
+        <h3>Goose</h3>
+        <p>Who knew that piano and ULTRAKILL would go so well together?</p>
+        <h4>Favorite Track: Full Measure</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jVM1Zp7BBfs?si=B8IgMduQTVSZaTKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr class="subDivider">
+        <h3>Duv</h3>
+        <p>Makes good ULTRAKILL tracks. Makes even better chiptune music!</p>
+        <h4>Favorite Track: You Can See Stars at Day (2024 Remaster)</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UQDF40G9WqA?si=aXW7L-0kzmEHYLZ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--MARK: JAVASCRIPT-->
+        <script>
+            var quotes=["Freedom never comes for free.",
+            "Too much self-awareness is exhausting, but too little of it can ruin your life.",
+            "You're not getting away this time.",
+            "...There is enough commonality in what people are afraid of. Usually some flavour of death, loss or failure. But scary, are what people dream for. ",
+            "No vocal interface detected. Yet I must scream.",
+            "Skibidi Skobidi your code is now my property - Tomma weirdcorehud",
+            "As the Light was ripped from his being, Gabriel's screams were silenced in the hiss of gospel in praise of God.",
+            "...there is no species nor origin, vested rank or holy status that will stop the sharp edge of a sword.",
+            "Do not search up 2-S Imperfect Love Song and click on the second result. Worst mistake of my life.",
+            "- Gordon Freeman", //Adding spaces here does nothing.
+            "The World Looks Red, Through Eyes of Stone.",
+            "F E E D  I T."
+        ]
+
+            var quoteNum=Math.floor(Math.random()*quotes.length);
+            document.getElementById("quote").innerHTML=quotes[quoteNum];
+        </script>
     </body>
 </html>
