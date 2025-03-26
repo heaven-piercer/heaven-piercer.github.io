@@ -7,7 +7,7 @@
     <body>
         <img src="piercerlogocropped.png" id="logo">
 
-        <h2 id="quote" class="bigHeader" onclick="getRandomQuote()">Click me for a quote!</h2>
+        <h1 class="bigHeader">Home</h1>
 
         <p>Welcome to my site! <br> This is a space for me to mash my keyboard in.</p>
         <hr>
@@ -15,77 +15,20 @@
         <p>A guy that likes vido gaems. Some of my favorite at the moment are Deadlock and especially ULTRAKILL. 
             I'm also the guy who made ULTRAHUD, although I don't work on it in any significant capacity anymore.</p>
             <hr>
-
-        <a href="projects.html"><p>say gex</p> </a>
-
-        <div id="music">
-        <h1>Music</h1>
-        <p>A lot of my music taste has been influenced by Hakita and his work on ULTRAKILL. 
-            Here's some of the artists I have grown to enjoy because of that.</p>
-            <hr class="subDivider">
-        
-            <div class="row">
-                <div class="column">
-                    <h3>Goose</h3>
-                    <p>Who knew that piano and ULTRAKILL would go so well together?</p>
-                    <h4>Favorite Track: Full Measure</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jVM1Zp7BBfs?si=B8IgMduQTVSZaTKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="column">
-                    <h3>Duv</h3>
-                    <p>Makes good ULTRAKILL tracks. Makes even better chiptune music!</p>
-                    <h4>Favorite Track: You Can See Stars at Day (2024 Remaster)</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UQDF40G9WqA?si=aXW7L-0kzmEHYLZ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="column">
-                    <h3>Marzuku</h3>
-                    <p>Probably the first guy that comes to mind when it comes to ULTRAKILL fan tracks.</p>
-                    <h4>Favorite Track: Imminence</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2kkaCWHp6W4?si=gFMzgcXKEso1PhOj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+        <div class="row">
+            <div class="column">
+                <a href="projects.html"><p>My Projects</p> </a>
             </div>
-            <hr class="subDivider">
-            <h2>While we're on the topic of Ultrakill music. Who could forget the guy who made the damn game?</h2>
-            <img src="https://f4.bcbits.com/img/0038102077_100.png">
-            <div class="row">
-                <div class="column">
-                    <h1>ACT I: INFINITE HYPERDEATH</h1>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dYpYQHb-ZKg?si=K0NinXWpZl5BxXTu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-                </div>
-                <div class="column">
-                    <h1>ACT II: IMPERFECT HATRED</h1>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QjV-f-Ew-Bw?si=NCBTPne7UCw6ExIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+            <div class="column">
+                <a href="likes.html"><p>Things I Like</p> </a>
             </div>
         </div>
-            <hr>
-            <div id="guesser">
-                <p>I can guess the phrase your thinking of fr fr. Fill out the text field and stare into your camera. (If you don't have a camera, don't worry, I can still see you =))</p>
-                <form>
-                    <input type="text" id="thought" oninput="getInput()">
-                </form>
-                <p id="guess"></p>
-            </div>
+
+        
+        
         
         <!--MARK: JAVASCRIPT-->
         <script>
-            var quotes=["Freedom never comes for free.",
-            "Too much self-awareness is exhausting, but too little of it can ruin your life.",
-            "You're not getting away this time.",
-            "NO VOCAL INTERFACE DETECTED. UNABLE TO COMPLETE TASK.",
-            "Skibidi Skobidi your code is now my property - Tomma weirdcorehud",
-            "As the Light was ripped from his being, Gabriel's screams were silenced in the hiss of gospel in praise of God.",
-            "...there is no species nor origin, vested rank or holy status that will stop the sharp edge of a sword.",
-            "Do not search up 2-S Imperfect Love Song and click on the second result. Worst mistake of my life.",
-            "- Gordon Freeman", //Adding spaces here does nothing.
-            "The World Looks Red, Through Eyes of Stone.",
-            "F E E D  I T.",
-            "Radiant is Gabriel, for He is the Light in my Darkness.",
-            "Something Wicked this way comes."
-        ]
-
-            var quoteNum=Math.floor(Math.random()*quotes.length);
-            document.getElementById("quote").innerHTML=quotes[quoteNum];
 
             function getInput(){
                 var userInput=document.getElementById("thought").value
