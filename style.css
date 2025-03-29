@@ -1,50 +1,43 @@
-html{
-    text-align: center;
-    background-color: black;
-    color:white;
-    font-family: monospace;
-}
-#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#ultrahud{
-    height:25%
-}
-.subDivider{
-    border: dashed;
-    color:white
-}
-.row {
-     display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-flex: 33.33%;
-padding: 5px;
-}
-
-.bigHeader{
-    font-size: 30pt;
-}
-
-.invalid{
-    color:red;
-}
-
-.container{
-    background-color: #434343;
-}
-.container .header{
-    background-color:maroon;
-    text-align: left;
-    text-indent: 10px;
+h1,h2,h3,h4,h5,h6{
+    font-family: "DotGothic16";
 }
 a{
-    color:red;
-    font-style: oblique;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:20px
+    letter-spacing: 3px;
 }
+button{
+    border-color: red;
+}
+
+.border-indigo{
+    border-color:#6610f2;
+}
+.border-red{
+    border-color:red;
+}
+.border-yellow{
+    border-color: yellow;
+}
+
+.border-comfig{
+    border-color: #009688;
+}
+
+.text-indigo{
+    color:#6610f2;
+}
+.text-yellow{
+    color:yellow;
+}
+.text-comfig{
+    color: #009688;
+}
+.text-red{
+    color:red;
+}
+
+.img-fluid-half{
+    width: 50%;
+    height:auto;
+}
+
+

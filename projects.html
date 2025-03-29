@@ -4,14 +4,24 @@
         <title>Heaven Piercer</title>
         <!--Imports Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--Imports DotGothic16 from Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&" rel="stylesheet">
+        <!--Imports custom CSS-->
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body class="bg-black">
+    <body class="bg-black text-white">
         <img src="piercerlogocropped.png" id="logo" class="img-fluid mx-auto d-block">
+        <button type="button" class="mx-auto d-block bg-black img-fluid-half">
+            <a href="index.html" class="text-decoration-none text-red"><h1 class="display-5 text-center fw-semibold">RETURN</h1></a>
+        </button>
         <div class="row justify-content-center">
-            <h1 class="display-1 col-4">Projects</h1>
-            <p class="col-4 ">I've worked on many projects, with most of them being abandoned.
+            <h1 class="display-1 col-4 fw-bold text-primary">Projects</h1>
+            <p class="col-4 text-center">I've worked on many projects, with most of them being abandoned.
                 Here are the ones I haven't abandoned yet.
             </p>
         </div>
@@ -34,6 +44,21 @@
             <p>A UI modification for TF2 which mimics the aesthetic of the one found in ULTRAKILL. <br>
             <span class="invalid">I don't work on this as much anymore.</span>
             </p>
+            <h3 class="d-inline">Downloads</h3>
+            <h6 class="text-warning">(Ordered from most to least recommended)</h6>
+            <button type="button" class="border-indigo bg-dark mb-2" style="width: 295px;">
+                <a href="https://github.com/heaven-piercer/ULTRAHUD-TF2" class="text-decoration-none"><h1 class="display-5 text-center fw-semibold text-indigo">GITHUB</h1></a>
+            </button>
+            <button type="button" class="border-comfig bg-dark mb-2" style="width: 295px;">
+                <a href="https://comfig.app/huds/page/ultrahud-tf2/" class="text-decoration-none"><h1 class="display-5 text-center fw-semibold text-comfig">COMFIG</h1></a>
+            </button>
+            <br>
+            <button type="button" class="border-danger bg-dark mb-2" style="width: 295px;">
+                <a href="https://tf2huds.dev/hud/ULTRAHUD-TF2" class="text-decoration-none"><h1 class="display-5 text-center fw-semibold text-danger">HUDS.DEV</h1></a>
+            </button>
+            <button type="button" class="border-yellow bg-dark" style="width: 295px;">
+                <a href="https://gamebanana.com/mods/497621" class="text-decoration-none"><h1 class="display-5 text-center fw-semibold text-yellow">GAMEBANANA</h1></a>
+            </button>
         </div>
     </div>
     
