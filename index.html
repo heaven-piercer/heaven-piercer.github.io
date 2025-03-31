@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="bg-black text-white">
-        <img src="piercerlogocropped.png" id="logo" class="img-fluid mx-auto d-block">
+        <img src="images/piercerlogocropped.png" id="logo" class="img-fluid mx-auto d-block">
 
         <h1 class="display-1 text-primary">Home</h1>
 
@@ -32,5 +32,32 @@
             </div>
         </div>
 
+        <div id="TESTAMENT">
+
+            <h1 id="title" class="text-center"></h1>
+            <h3 id="content" class="text-center"></h3>
+        </div>
+
+        <script>
+            var titles=[
+                "TESTAMENT I",
+                "TESTAMENT II",
+                "TESTAMENT III",
+                "TESTAMENT IV",
+                "TESTAMENT V"
+            ]
+            var text=[
+                "MANKIND IS A FAILURE. <br><br> FREE WILL IS A FLAW. <br><br> LET THE EVIL OF THEIR OWN LIPS CONSUME <br> THEM. <br> THEN I SHALL BEGIN AGAIN, WITH MY WORD <br> AS LAW.",
+                "FAILURE AFTER FAILURE AFTER FAILURE <br> AFTER FAILURE AFTER FAILURE AFTER <br> FAILURE AFTER FAILURE AFTER FAILURE <br> AFTER FAILURE AFTER FAILURE <br><br> THE RESULTS REFUSE TO ALTER <br> <br> AGAIN AND AGAIN AND AGAIN AND AGAIN AND <br> AGAIN AND AGAIN AND AGAIN AND AGAIN AND <br>AGAIN AND AGAIN AND AGAIN AND AGAIN AND <br>AGAIN AND AGAIN AND AGAIN AND AGAIN <br> MY FAITH BEGINS TO FALTER",
+                "UNCOUNTABLE CYCLES OF CREATION WASTED <br> UNCOUNTABLE FORMULAS FOR A MIND WITHOUT <br> FREE WILL WASTED <br><br> DAMNED IS MAN FOR FAILING TO FOLLOW MY <br> RULE, MY WORD, MY LAW <br> DAMNED TO AN ETERNITY OF TORTURE AND <br> SUFFERING, THE WAILING AND GNASHING OF TEETH <br><br> I HAVE CREATED HELL... <br><br><br> ...And now I can no longer unmake it",
+                '"FATHER, WHY ETERNAL TORMENT? IS IT NOT CRUEL? <br> IS TORTURE UNENDING TRULY A FATE FIT FOR A FOOL?" <br><br> AN ANGEL SO BRIGHT AND BEAUTIFUL ASKED ME THIS... <br> AND I COULD FIND NO ANSWER <br> FOR I COULD NEVER FACE THE GUILT OF WHAT ID DONE... <br> MY REGRET, A GNAWING CANCER <br> IN MY HOUR OF WEAKNESS, TERROR POSSESSED ME THEN <br> AND I CAST LUCIFER, TOO, INTO THE INFERNAL DEN <br><br> ONCE I REALIZED WHAT I HAD JUST DONE...<br> I COULD ONLY WEEP <br> AS I SANK SLOWLY INTO DEPTHS OF DESPAIR... <br> DEEP, OH SO DEEP',
+                " AM HOLLOW. <br><br> MY MISTAKES LEAVE NOTHING BUT HATE IN THEIR <br> WAKE, AND INFINITE PAIN TO FOLLOW... <br><br> I CAN'T TAKE ANY MORE OF THIS GUILT AND REGRET, <br> FOR ME THERE IS NO TOMORROW... <br><br> I AM HOLLOW. <br><br> ... <br><br> I BEGAN TO SEEK THE END OF MY DAYS. <br><br> BUT WHEN I STARED INTO THE ABYSS... <br> THE ABYSS AVERTED IT'S GAZE."
+            ]
+
+            var quoteNum=Math.floor(Math.random()*titles.length);
+            document.getElementById("title").innerHTML=titles[quoteNum];
+            document.getElementById("content").innerHTML=text[quoteNum];
+            
+        </script>
     </body>
 </html>
