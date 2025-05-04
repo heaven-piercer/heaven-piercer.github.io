@@ -21,6 +21,9 @@ button{
 .border-comfig{
     border-color: #009688;
 }
+.border-kofi{
+    border-color: #f26a2c;
+}
 
 .text-indigo{
     color:#6610f2;
@@ -30,6 +33,9 @@ button{
 }
 .text-comfig{
     color: #009688;
+}
+.text-kofi{
+    color: #f26a2c;
 }
 .text-red{
     color:red;
