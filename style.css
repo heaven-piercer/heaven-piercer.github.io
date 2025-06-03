@@ -40,10 +40,17 @@ button{
 .text-red{
     color:red;
 }
+.text-black{
+    color:black;
+}
 
 .img-fluid-half{
     width: 50%;
     height:auto;
+}
+
+html{
+    background-color: black ;
 }
 
 
