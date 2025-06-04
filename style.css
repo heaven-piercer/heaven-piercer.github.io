@@ -1,9 +1,19 @@
-h1,h2,h3,h4,h5,h6{
-    font-family: "DotGothic16";
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "VCR OSD Mono";
 }
+
+p{
+    font-size: 30px;
+}
+
+.edgy{
+    letter-spacing: 5px;
+}
+
 a{
     letter-spacing: 3px;
 }
+
 button{
     border-color: red;
 }
@@ -53,4 +63,24 @@ html{
     background-color: black ;
 }
 
+@font-face{
+    font-family: "VCR OSD Mono";
+    src:url(fonts/vcr_osd_mono_1.001.ttf);
+}
 
+.terminal{
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.header{
+    color:red;
+    text-indent: 7px;
+}
+
+.header.center{
+    text-indent:0px;
+}
