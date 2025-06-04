@@ -84,3 +84,7 @@ html{
 .header.center{
     text-indent:0px;
 }
+
+.font-vcr{
+    font-family: "VCR OSD Mono";
+}
