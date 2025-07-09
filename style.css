@@ -95,3 +95,10 @@ html{
 .font-vcr{
     font-family: "VCR OSD Mono";
 }
+
+.header-page{
+    font-size: 150px;
+    text-align:right;
+    margin-right: 22px;
+    float:right;
+}
