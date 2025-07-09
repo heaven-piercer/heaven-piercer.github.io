@@ -67,6 +67,14 @@ html{
     font-family: "VCR OSD Mono";
     src:url(fonts/vcr_osd_mono_1.001.ttf);
 }
+@font-face{
+    font-family: "Determination Mono";
+    src:url(fonts/DTM-Mono.otf);
+}
+
+.determined{
+    font-family: "Determination Mono";
+}
 
 .terminal{
     border: 5px;
@@ -77,7 +85,6 @@ html{
 }
 
 .header{
-    color:red;
     text-indent: 7px;
 }
 
