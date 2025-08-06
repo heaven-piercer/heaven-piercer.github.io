@@ -1,0 +1,78 @@
+body{
+  background-color: black;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "VCR OSD Mono";
+}
+
+p{
+    font-size: 30px;
+}
+
+@font-face{
+    font-family: "VCR OSD Mono";
+    src:"./assets/vcr_osd_mono_1.001.ttf";
+}
+@font-face{
+    font-family: "Determination Mono";
+    src:"./assets/DTM-Mono.otf";
+}
+
+@font-face{
+    font-family: "fs tahoma 8px";
+    src:"./assets/fs-tahoma-8px.ttf";
+}
+
+.determined{
+    font-family: "Determination Mono";
+}
+
+.Tahoma{
+  font-family: "fs Tahoma 8px";
+}
+
+.terminal{
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin: 7px;
+    
+}
+
+#logo{
+  width:50%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0px;
+}
+
+
+.text-yellow{
+  color:yellow;
+}
+
+.text-red{
+  color:red;
+}
+
+.display-1{
+  font-size: 60px;
+}
+
+.display-0{
+  font-size: 80px;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card img{
+  width:25%;
+  display: flex;
+  justify-content: center;
+}
