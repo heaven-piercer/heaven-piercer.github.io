@@ -1,9 +1,25 @@
+body,button{
+    background-color: black;
+
+}
 h1,h2,h3,h4,h5,h6,p{
     font-family: "VCR OSD Mono";
+    color: white;
 }
 
-p{
+p,li{
     font-size: 30px;
+    color: white;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.mx-auto{
+    margin:auto;
+    display: flex;
 }
 
 .edgy{
@@ -50,6 +66,9 @@ button{
 .text-red{
     color:red;
 }
+.text-cyan{
+    color:#44fbff;
+}
 .text-black{
     color:black;
 }
@@ -86,6 +105,8 @@ html{
 
 .header{
     text-indent: 7px;
+    margin-top: 0px;
+    font-size: 50px;
 }
 
 .header.center{
@@ -101,4 +122,26 @@ html{
     text-align:right;
     margin-right: 22px;
     float:right;
+    margin-top: 0px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.d-block{
+    display: block;
+}
+
+.text-warning{
+    color:yellow;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-none{
+    margin: 0px;
+    padding: 0px;
 }
